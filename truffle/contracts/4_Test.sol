@@ -3,7 +3,7 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 contract Test{
-
+    
     uint16 _number;
 
     mapping(address => bytes32) _greeting; 
@@ -38,7 +38,5 @@ contract Test{
 
         return (_greeting[msg.sender]);
     }
-    
-
 
 }
